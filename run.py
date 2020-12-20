@@ -1,6 +1,4 @@
 import turtle
-import random
-import time
 
 # windos
 wind = turtle.Screen()
@@ -51,7 +49,7 @@ blo.shapesize(stretch_wid=2.5, stretch_len=1)
 blo.speed(0)
 blo.penup()
 blo.goto(500, -50)
-blo.dx = 1
+blo.dx = 2
 
 # birds
 bird = turtle.Turtle()
@@ -85,7 +83,7 @@ def restaret():
     blo.goto(500, -50)
     bird.goto(1901, -30)
     by.clear()
-    blo.dx = 1
+    blo.dx = 2
     bird.dx = 1
     dino.dy = 0.5
 
